@@ -1,1 +1,1 @@
-build.cmd linguist-detectable=false
+*.cmd linguist-vendored
