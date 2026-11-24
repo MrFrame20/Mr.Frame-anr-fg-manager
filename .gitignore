@@ -1,0 +1,10 @@
+# binarios e arquivos gerados (vao na aba Releases, nao no codigo)
+*.exe
+dist/
+pkgname.txt
+*.old
+*.new
+
+# o pacote do ANR FG e do Apex Compute: nao inclua no repositorio
+anr-fg-*.zip
+*.zip
