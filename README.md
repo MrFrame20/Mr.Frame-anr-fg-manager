@@ -22,13 +22,5 @@ Escrito em C# (.NET Framework 4.x), sem dependências: compila só com o `csc.ex
 
 O pacote do ANR FG **não** faz parte deste repositório (é do Apex Compute) e por isso o `.gitignore` o ignora.
 
-## Publicar uma versão
-1. Aumente a versão em `src/PackageAndInstaller.cs` (`AppVersion`), `src/AssemblyInfo.cs` e `installer/SetupAssemblyInfo.cs`.
-2. Rode `build.cmd`.
-3. Em **Releases > Draft a new release**, crie a tag da versão (ex.: `v2.3.0`) e anexe
-   `ANR-FG-Manager-Setup.exe` e `ANR-FG-Manager.exe` (com esses nomes).
-4. Quem usa o programa recebe o aviso de atualização (configure o repositório em *atualizações*,
-   ou troque `DefaultRepo` em `src/AppUpdater.cs`).
-
 ## Aviso
 Projeto não oficial, feito por um usuário. ANR FG e OptiScaler pertencem aos seus autores e licenças.
