@@ -6,6 +6,7 @@ instala, atualiza e desinstala o ANR FG em cada jogo, edita as configurações,
 recomenda ajustes para a sua GPU e abre o jogo pelo botão **Jogar**.
 
 Executável 100% em C# (.NET Framework 4.x), sem PowerShell e sem dependências externas: compila apenas com o `csc.exe` que já vem no Windows.
+<img width="1171" height="776" alt="image" src="https://github.com/user-attachments/assets/4c021134-5bf4-4208-b27f-cda211441607" />
 
 ## Recursos
 - Lista de jogos com ícone, banner (Steam), filtros e ordenação.
